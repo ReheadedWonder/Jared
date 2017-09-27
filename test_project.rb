@@ -13,14 +13,8 @@ def fib (places)
   arr.each { |num|
     puts b
     a,b = b,a+b
-    # b = a
   }
-  # while b <  places do
-  #   puts b
-  #
-  #   a,b = b,a+b
-  #
-  # end
+
 end
 
 fib (glue)
