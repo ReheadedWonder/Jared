@@ -1,10 +1,17 @@
+words = ""
 ARGV.reverse.each do |a|
 
-  print "#{a} "
+  # puts "#{a} "
+  words = "#{words}#{a} "
 
+end
 
-  end
+puts words
 
-  puts " "
+  # print "#{a} "
+  #
+  # end
+  #
+  # puts " "
 
   # puts gets.chomp.split.reverse.join(' ')
